@@ -1,0 +1,123 @@
+
+
+/** {
+  border: 1px solid black;
+}*/
+
+/* Typo */
+
+.fontsize10 {
+  font-size: 10pt;
+  color: black;
+}
+
+.fontsize15 {
+  font-size: 15pt;
+  color: black;
+}
+
+.fontsize24 {
+    font-size: 24pt;
+    color: black;
+}
+
+.fontwhite {
+    color: white;
+}
+
+.fontblue {
+    color: #0793EB;
+}
+
+.fontback {
+    color: black;
+}
+
+.boldtext {
+  font-weight: 700;
+  font-family: 'Open Sans';
+}
+
+.characterspacing {
+  font-kerning: auto;
+}
+
+/* Backgrounds */
+
+.blackbg {
+  background-color: black;
+}
+
+/*.activeparallelogram {
+  width: 100%;
+  height: auto;
+  -webkit-transform: skew(-15deg);
+  -moz-transform: skew(-15deg);
+  -o-transform: skew(-15deg);
+  background: #0793EB;
+  color: white;
+}*/
+
+  .parallelogram {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  position: relative;
+  border: solid 5px #0793EB;
+  margin-left: -10px;
+  transform: skew(-15deg);
+  font-size: 24pt;
+  color: #0793EB;
+}
+
+  .parallelogram:hover {
+    background: #0793EB;
+    font-size: 24pt;
+    color: white;
+  }
+
+
+
+
+
+/* Helpers */
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+
+.emptycol {
+    color: '-';
+    width: 200px;
+}
+
+  .largegap {
+     margin-top: 30px;
+     margin-bottom: 30px;
+  }
+
+  .midgap {
+     margin-top: 15px;
+     margin-bottom: 15px;
+  }
+
+  .smallgap {
+     margin-top: 5px;
+     margin-bottom: 5px;
+  }
+
+  hr {
+   height: 2px;
+   max-height: 0;
+}
+
+
+
+/** Form Style **/
+
+  #regiration_form fieldset:not(:first-child) {
+    display: none;
+  }
